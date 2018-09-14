@@ -7,6 +7,9 @@ import { ConcatComponent } from './concat/concat.component';
 import { MergeComponent } from './merge/merge.component';
 import { StartwithComponent } from './startwith/startwith.component';
 import { LatestvalueComponent } from './latestvalue/latestvalue.component';
+import { ThrowerrorComponent } from './throwerror/throwerror.component';
+import { RangeComponent } from './range/range.component';
+import { ObservableComponent } from './observable/observable.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +18,10 @@ import { LatestvalueComponent } from './latestvalue/latestvalue.component';
     ConcatComponent,
     MergeComponent,
     StartwithComponent,
-    LatestvalueComponent
+    LatestvalueComponent,
+    ThrowerrorComponent,
+    RangeComponent,
+    ObservableComponent
   ],
   imports: [
     BrowserModule
