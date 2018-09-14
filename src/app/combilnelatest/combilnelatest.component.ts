@@ -19,7 +19,7 @@ export class CombilnelatestComponent implements OnInit {
     const subscribe = combined.subscribe( ([$timerOne, $timerTwo, $timerThree]) => {
       /*
         Example:
-      timerOne first tick: 'Timer One Latest: 1, Timer Two Latest:0, Timer Three Latest: 0
+      timerOne first tick: 'Timer One Latest: 1, Timer Two Latest:0, Timer Three Latest: 0;
       timerTwo first tick: 'Timer One Latest: 1, Timer Two Latest:1, Timer Three Latest: 0
       timerThree first tick: 'Timer One Latest: 1, Timer Two Latest:1, Timer Three Latest: 1
     */

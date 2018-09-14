@@ -22,4 +22,5 @@ export class LatestvalueComponent implements OnInit {
      const subscribe = result.subscribe(val => console.log(val));
   }
 
+  
 }

@@ -11,7 +11,7 @@ import { interval, merge } from 'rxjs';
 export class MergeComponent implements OnInit {
 
   ngOnInit() {
-    // multiple observable can be merge to one observable
+    // multiple observable can be merge to one observable.
     const first = interval(1000);
     const second = interval(2000);
     const third = interval(3000);

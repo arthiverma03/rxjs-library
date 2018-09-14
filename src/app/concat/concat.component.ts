@@ -19,7 +19,7 @@ export class ConcatComponent implements OnInit {
     const subscribe = example.subscribe(val =>
       console.log('Example: Basic concat:', val));
 
-      // concat with static method
+      // concat with static method.
       const sourceThree = of(1, 2,3);
       const sourceFour = of(4, 5, 6);
       const result = concat(sourceThree, sourceFour);
